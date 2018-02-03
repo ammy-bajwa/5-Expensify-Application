@@ -23,15 +23,15 @@ export class EditExpensePage extends React.Component {
       </div>
     );
   }
-}
-
-const mapStateToProps = (state, props) => {
-  return {
-    expense: state.expenses.find((expense) => expense.id === props.match.params.id)
-  };
 };
-const mapDispatchToProps = (dispatch, props) => ({
- editExpense: (id,expense) => dispatch(editExpense(id,expense)),
- removeExpense: (data) => dispatch(removeExpense(data))
+
+const mapStateToProps = (state, props) => ({
+  expense: state.expenses.find((expense) => expense.id === props.match.params.id)
 });
-export default connect(mapStateToProps,mapDispatchToProps)(EditExpensePage);
+
+const mapDispatchToProps = (dispatch, props) => ({
+  editExpense: (id, expense) => dispatch(editExpense(id, expense)),
+  removeExpense: (data) => dispatch(removeExpense(data))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(EditExpensePage);
