@@ -39,6 +39,7 @@ exports[`should render ExpenseForm correctly 1`] = `
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
       isRTL={false}
+      keepFocusOnInput={false}
       keepOpenOnDateSelect={false}
       monthFormat="MMMM YYYY"
       navNext={null}
@@ -58,6 +59,7 @@ exports[`should render ExpenseForm correctly 1`] = `
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
+          "dateIsSelected": [Function],
           "dateIsUnavailable": [Function],
           "enterKey": "Enter key",
           "escape": "Escape key",
@@ -84,6 +86,7 @@ exports[`should render ExpenseForm correctly 1`] = `
       }
       placeholder="Date"
       readOnly={false}
+      regular={false}
       renderCalendarInfo={null}
       renderDayContents={null}
       renderMonth={null}
@@ -150,6 +153,7 @@ exports[`should render ExpenseForm correctly with expense data 1`] = `
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
       isRTL={false}
+      keepFocusOnInput={false}
       keepOpenOnDateSelect={false}
       monthFormat="MMMM YYYY"
       navNext={null}
@@ -169,6 +173,7 @@ exports[`should render ExpenseForm correctly with expense data 1`] = `
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
+          "dateIsSelected": [Function],
           "dateIsUnavailable": [Function],
           "enterKey": "Enter key",
           "escape": "Escape key",
@@ -195,6 +200,7 @@ exports[`should render ExpenseForm correctly with expense data 1`] = `
       }
       placeholder="Date"
       readOnly={false}
+      regular={false}
       renderCalendarInfo={null}
       renderDayContents={null}
       renderMonth={null}
@@ -261,6 +267,7 @@ exports[`should render error for invalid form submission 1`] = `
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
       isRTL={false}
+      keepFocusOnInput={false}
       keepOpenOnDateSelect={false}
       monthFormat="MMMM YYYY"
       navNext={null}
@@ -280,6 +287,7 @@ exports[`should render error for invalid form submission 1`] = `
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
+          "dateIsSelected": [Function],
           "dateIsUnavailable": [Function],
           "enterKey": "Enter key",
           "escape": "Escape key",
@@ -306,6 +314,7 @@ exports[`should render error for invalid form submission 1`] = `
       }
       placeholder="Date"
       readOnly={false}
+      regular={false}
       renderCalendarInfo={null}
       renderDayContents={null}
       renderMonth={null}
@@ -375,6 +384,7 @@ exports[`should render error for invalid form submission 2`] = `
       isDayHighlighted={[Function]}
       isOutsideRange={[Function]}
       isRTL={false}
+      keepFocusOnInput={false}
       keepOpenOnDateSelect={false}
       monthFormat="MMMM YYYY"
       navNext={null}
@@ -394,6 +404,7 @@ exports[`should render error for invalid form submission 2`] = `
           "chooseAvailableDate": [Function],
           "clearDate": "Clear Date",
           "closeDatePicker": "Close",
+          "dateIsSelected": [Function],
           "dateIsUnavailable": [Function],
           "enterKey": "Enter key",
           "escape": "Escape key",
@@ -420,6 +431,7 @@ exports[`should render error for invalid form submission 2`] = `
       }
       placeholder="Date"
       readOnly={false}
+      regular={false}
       renderCalendarInfo={null}
       renderDayContents={null}
       renderMonth={null}
